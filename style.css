@@ -130,11 +130,11 @@ inview　右から
   text-align: right;
 }
 
-.is-show {
+.chura_img {
   width: 40%;
 }
 
-.is-show img {
+.chura_img img {
   width: 30vw;
 }
 
@@ -237,10 +237,6 @@ inview　右から
 
 /* レスポンシブ（sp表示の指定） */
 @media (max-width: 767px) {
-  html,body {
-    font-size: 2.5em;
-  }
-
   /* 沖縄おススメポイント */
   .osusume_list {
     display: block;
@@ -258,12 +254,12 @@ inview　右から
     display: block;
   }
   
-  .is-show {
+  .chura_img {
     width: 75vw;
     text-align: center;
   }
   
-  .is-show img {
+  .chura_img img {
     width: 75vw;
   }
   
