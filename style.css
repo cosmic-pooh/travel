@@ -82,31 +82,15 @@ p {
 
 /* 沖縄美ら海水族館 */
 
-/*============
-inview　左から
-=============*/
+/*===========
+inview
+===========*/
 
-.fadeIn_left {
+.fadeIn {
   opacity: 0;
-  transform: translate(-40%, 0);
-  transition: 2s;
+  transition: 5s;
 }
-.fadeIn_left.is-show {
-  transform: translate(0, 0);
-  opacity: 1;
-}
-
-/*============
-inview　右から
-=============*/
-
-.fadeIn_right {
-  opacity: 0;
-  transform: translate(40%, 0);
-  transition: 2s;
-}
-.fadeIn_right.is-show {
-  transform: translate(0, 0);
+.fadeIn.is-show {
   opacity: 1;
 }
 
@@ -237,6 +221,25 @@ inview　右から
 
 /* レスポンシブ（sp表示の指定） */
 @media (max-width: 767px) {
+  /* ページ全体 */
+
+  p {
+   font-size: 4.5vw;
+  }
+
+  .contaiter {
+   width: 100%;
+  }
+
+  .title {
+   font-size: 10vw;
+  }
+
+  .subtitle {
+   font-size: 7vw;
+   color: #004E87;
+  }
+
   /* 沖縄おススメポイント */
   .osusume_list {
     display: block;
