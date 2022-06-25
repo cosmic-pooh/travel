@@ -6,16 +6,20 @@ p {
   font-size: 2vw;
 }
 
+h3 {
+  font-size: 2em;
+}
+
 .contaiter {
   width: 100%;
 }
 
 .title {
-  font-size: 7vw;
+  font-size: 6vw;
 }
 
 .subtitle {
-  font-size: 4vw;
+  font-size: 4.5vw;
   color: #004E87;
 }
 
@@ -224,7 +228,7 @@ inview
   /* ページ全体 */
 
   p {
-   font-size: 4.5vw;
+   font-size: 3vw;
   }
 
   .contaiter {
@@ -232,11 +236,11 @@ inview
   }
 
   .title {
-   font-size: 10vw;
+   font-size: 7vw;
   }
 
   .subtitle {
-   font-size: 7vw;
+   font-size: 5vw;
    color: #004E87;
   }
 
